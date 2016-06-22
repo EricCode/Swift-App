@@ -1,26 +1,248 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11129.15" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="5ub-jh-BP1">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11103.10"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="eI1-wC-BoA">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ucP-lL-i8r" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="J9o-GM-m4g"/>
+                        <viewControllerLayoutGuide type="bottom" id="1t6-Au-5N6"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ygg-vE-mKg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" highlightedImage="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="KUn-lK-4M9">
+                                <frame key="frameInset" minX="16" minY="20" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image3" translatesAutoresizingMaskIntoConstraints="NO" id="LYB-Gt-fjZ">
+                                <frame key="frameInset" minX="16" minY="196" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image4" translatesAutoresizingMaskIntoConstraints="NO" id="V96-jq-Kfg">
+                                <frame key="frameInset" minX="187" minY="196" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="yyS-oQ-dIp">
+                                <frame key="frameInset" minX="187" minY="20" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image6" translatesAutoresizingMaskIntoConstraints="NO" id="XEe-am-MoL">
+                                <frame key="frameInset" minX="187" minY="372" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image5" translatesAutoresizingMaskIntoConstraints="NO" id="hOo-h6-b1d">
+                                <frame key="frameInset" minX="16" minY="372" width="172" height="176"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Y7p-aQ-vYt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSo-yM-SSz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.60000000000002" y="63.418290854572717"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="9YQ-Jf-Goz">
+            <objects>
+                <viewController id="1sh-E4-Fam" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VLU-L9-xxe"/>
+                        <viewControllerLayoutGuide type="bottom" id="jc1-sK-wfn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q35-Nx-jQx">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l9H-ma-gSe">
+                                <frame key="frameInset" minY="20" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="一輪明月" id="ox3-pl-3Qg"/>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="YbI-aU-Faq">
+                                <frame key="frameInset" minX="12" minY="72" width="351" height="211"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2SQ-I5-cup">
+                                <frame key="frameInset" minX="16" minY="282" width="343" height="344"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">《一輪明月》  真如
+
+千里思念 絕絃吟傷 抱琴無語 獨飲惆悵 
+知音難尋 泫然成霜 愁容紙上 書盡滄桑 
+
+是誰琴音 婉轉透竹窗 如親喚兒 消融萬般傷 
+一壺清香 瓷杯泛柔光 芬芳淡雅 化愁暖斷腸 
+
+夢中伊人 在天一方 徐送清風 碧波蕩漾 
+天地神蘊 凝成月光 萬古慈懷 猶在弦上 
+
+何需斷弦 何勞絕望 得逢善士 長伴身旁 
+再彈心曲 有你共唱 一輪明月 永照心房 
+
+一輪明月 永照心房 </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="emf-vq-bhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2676" y="-224.4377811094453"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="NNc-UI-tOR">
+            <objects>
+                <viewController id="LmE-3g-w7G" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AHv-w2-iHM"/>
+                        <viewControllerLayoutGuide type="bottom" id="L0h-a0-Yva"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iRp-4A-5XU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="jft-NG-hlG">
+                                <frame key="frameInset" minX="16" minY="72" width="343" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xd7-jV-aBt">
+                                <frame key="frameInset" minX="16" minY="279" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="忽聞一夜春風來  千樹萬樹梨花開">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Gw-wv-9mh" kind="show" id="Xmu-5c-wAE"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image2" translatesAutoresizingMaskIntoConstraints="NO" id="42C-SY-RTC">
+                                <frame key="frameInset" minX="16" minY="345" width="343" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oS-ov-fyu">
+                                <frame key="frameInset" minX="16" minY="552" width="343" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                <state key="normal" title="一輪明月">
+                                    <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="1sh-E4-Fam" kind="show" id="put-xh-eEm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="RfZ-5y-NdL"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m6q-Ag-2Fr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1680.8" y="-591.45427286356824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="We1-SQ-JIt">
+            <objects>
+                <viewController id="7Gw-wv-9mh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Uh8-WL-0lV"/>
+                        <viewControllerLayoutGuide type="bottom" id="dmo-3z-Thr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Auu-Zp-WtI">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image1" translatesAutoresizingMaskIntoConstraints="NO" id="SSv-LM-4oo">
+                                <frame key="frameInset" minX="16" minY="64" width="343" height="207"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="1000" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZJ-6k-aRs">
+                                <frame key="frameInset" minX="16" minY="286" width="343" height="256"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">《白雪歌送武判官歸京》  岑參
+
+北風卷地白草折， 胡天八月即飛雪。
+忽如一夜春風來， 千樹萬樹梨花開。
+散入珠簾濕羅幕， 狐裘不暖錦衾薄。
+將軍角弓不得控， 都護鐵衣冷難著。
+瀚海闌干百丈冰， 愁云慘淡萬里凝。
+中軍置酒飲歸客， 胡琴琵琶與羌笛。
+紛紛暮雪下轅門， 風掣紅旗凍不翻。
+輪臺東門送君去， 去時雪滿天山路。
+山回路轉不見君， 雪上空留馬行處。</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LXo-iG-ZJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2676" y="-915.29235382308855"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6Cx-Pc-B9V">
+            <objects>
+                <tabBarController id="5ub-jh-BP1" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="97a-dP-Ia4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BGr-hp-9Pj" kind="relationship" relationship="viewControllers" id="BgR-HH-Tiy"/>
+                        <segue destination="ucP-lL-i8r" kind="relationship" relationship="viewControllers" id="gbk-RV-KQK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mcj-XH-ONx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-383" y="-357"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="4df-jR-O4W">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BGr-hp-9Pj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="recents" id="v5L-0z-ERJ"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lAm-pa-0mL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="LmE-3g-w7G" kind="relationship" relationship="rootViewController" id="dNT-Ne-4x0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uBv-zE-4Zf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="741.60000000000002" y="-591.45427286356824"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image1" width="550" height="368"/>
+        <image name="Image2" width="1280" height="800"/>
+        <image name="Image3" width="1920" height="1152"/>
+        <image name="Image4" width="2560" height="1440"/>
+        <image name="Image5" width="200" height="150"/>
+        <image name="Image6" width="700" height="469"/>
+    </resources>
 </document>
